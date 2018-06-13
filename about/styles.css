@@ -1,0 +1,137 @@
+body {
+    font-family: "Roboto Thin";
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 3vmin;
+    vertical-align: middle;
+}
+
+h5 {
+    margin-top: 0;
+    color: grey;
+    font-size: 19px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto";
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: grey;
+    transition-duration: 20ms;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.logo img {
+    padding-top: 7%;
+    height: 15%;
+    width: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nameheader {
+    text-align: center;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 7%;
+}
+
+hr {
+    width: 20%;
+    height: 2px;
+    margin-bottom: 5%;
+    border: none;
+    background-color: black;
+    color: black;
+}
+
+.footer {
+    position: fixed;
+    height: 15%;
+    width: 47px;
+    border-radius: 10px;
+    bottom: 0;
+    background-color: white;
+    text-align: right;
+}
+
+.footer img {
+    height: 30%;
+    margin-left: 10px;
+    margin: 5%;
+    display: block;
+}
+
+.bottom {
+    text-align: right;
+    margin-top: 30px;
+    height: 30px;
+    bottom: 0;
+    left: 0;
+}
+
+.row {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    width: 90%;
+    overflow: hidden;
+}
+
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.row p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.row img {
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    right: 20%;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 100%;
+    object-fit: contain;
+}
