@@ -1,0 +1,217 @@
+#cover {
+  background-image: url("lights.png");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+   font-size: 20px;
+   line-height: 60%;
+}
+
+hr {
+  width: 60%;
+}
+
+body {
+  font-family: "Roboto Thin";
+  color: black;
+  text-align: center;
+}
+
+a:visited {
+  color: red;
+}
+a:link {
+  color: black;
+}
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.name {
+  color: black;
+  text-align: center;
+  position: fixed;
+  top: 30%;
+  left: 43%;
+}
+
+.row {
+  width: 100%;
+  text-align: right;
+  right: 19%;
+  top: 60%;
+}
+
+.inner {
+  display: inline-block;
+  padding: 15px;
+}
+
+.link {
+  font-size: 24px;
+  color: white;
+  background: none;
+  padding: 20px 30px;
+  border-radius: 4px;
+  border: 3px solid white;
+  transition-duration: 0.3s;
+}
+
+.link:hover {
+  color: red;
+  opacity: 0.2;
+}
+
+
+.title {
+  color: black;
+  text-align: center;
+  font-size: 500px;
+}
+
+.term {
+  border: 3px solid black;
+  color: black;
+  text-align: center;
+  font-family: "Roboto Thin";
+  margin-top: 20px;
+  padding-bottom: 10px;
+  height: 460px;
+  font-size: 300%;
+}
+
+ul {
+  color: gray; 
+  list-style-type: none;
+  padding: 0;
+  vertical-align: middle;
+  margin-top: -50%;
+  font-size: 50%;
+}
+
+.courses {
+  margin-top: 55%;
+  line-height: 40px;
+  padding-bottom: 30%;
+  font-family: "Roboto";
+}
+
+
+.return {
+  text-align: left;
+  position: fixed;
+  top: 0;
+  margin: 6px 12px 6px 8px;
+}
+
+.totop {
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  margin: 6px 12px 6px 8px;
+}
+
+embed {
+  width: 70%;
+  height: 1150px;
+  position: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+body {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-size: 3vmin;
+  vertical-align: middle;
+}
+
+h5 {
+  margin-top: 0;
+  color: grey;
+  font-size: 19px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto";
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: grey;
+  transition-duration: 20ms;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.logo img {
+  padding-top: 7%;
+  height: 15%;
+  width: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nameheader {
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 7%;
+}
+
+hr {
+  width: 20%;
+  height: 2px;
+  margin-bottom: 5%;
+  border: none;
+  background-color: black;
+  color: black;
+}
+
+
+
