@@ -67,7 +67,7 @@ a:hover {
   background: none;
   padding: 20px 30px;
   border-radius: 4px;
-  border: 3px solid white;
+  border: 1px solid white;
   transition-duration: 0.3s;
 }
 
@@ -84,14 +84,17 @@ a:hover {
 }
 
 .term {
-  border: 3px solid black;
+  border: 1px solid black;
   color: black;
   text-align: center;
   font-family: "Roboto Thin";
   margin-top: 20px;
-  padding-bottom: 10px;
-  height: 460px;
+  height: 80vh;
   font-size: 300%;
+}
+
+.container {
+  display: inline-block;
 }
 
 ul {
@@ -134,10 +137,6 @@ embed {
   margin-bottom: 20px;
 }
 
-body {
-  font-family: "Roboto";
-}
-
 h1 {
   font-size: 60px;
   margin-bottom: 0;
@@ -152,56 +151,6 @@ h5 {
   margin-top: 0;
   color: grey;
   font-size: 19px;
-}
-
-/* Add a black background color to the top navigation */
-.topnav {
-  overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-  font-family: "Roboto";
-}
-
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 20px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  color: grey;
-  transition-duration: 20ms;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  color: black;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-}
-
-.logo img {
-  padding-top: 7%;
-  height: 15%;
-  width: 15%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.nameheader {
-  text-align: center;
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 7%;
 }
 
 hr {

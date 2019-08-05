@@ -13,25 +13,60 @@ h5 {
     font-size: 19px;
 }
 
-/* Add a black background color to the top navigation */
-.topnav {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    font-family: "Roboto";
+.welcome-screen {
+    background-image: url('./background.jpg');
+    display: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 0;
+    border: 1px solid white;
 }
 
+.intro-text {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0, -50%);
+}
+
+.welcome-screen h2 {
+    line-height: 80%;
+    font-size: 30px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    width: 100%;
+    font-family: "Roboto";
+    background-color: white;
+    z-index: 100;
+}
+
+.offset {
+    margin-left: 10%;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
 
 /* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     color: black;
     text-align: center;
-    padding: 20px 16px;
+    padding: 25px 50px;
     text-decoration: none;
     font-size: 17px;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
     color: grey;
@@ -45,107 +80,74 @@ h5 {
     border-bottom-style: solid;
 }
 
-.logo img {
-    padding-top: 7%;
-    height: 15%;
-    width: 15%;
+.intro { 
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 85%;
+    height: 75vh;
+    margin: auto;
+    margin-top: 150px;
 }
 
-.nameheader {
-    text-align: center;
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 7%;
-}
-
-.homepic1 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-}
-
-.intro {
-    padding: 5%;  
-    display: block;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.intro h1 {
-    font-size: 100px;
-    vertical-align: middle;
-    text-align: right;
-    white-space: nowrap ;
-    z-index: 1;
+.intro img{
+    width: 90%;
+    border-radius: 50%;
 }
 
 .intro h3 {
     vertical-align: middle;
     text-align: justify;
     z-index: 1;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-hr {
-    width: 20%;
-    height: 2px;
-    margin-bottom: 5%;
-    border: none;
+.intro hr {
+    width: 30%;
+    height: 1px;
+    margin: auto;
     background-color: black;
-    color: black;
 }
 
-.aboutMeLink {
-    padding-top: 10%;
-    margin-bottom: 5%;
-    color: gray;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.col-md-8 {
+    padding-top: 3%;
+}
+
+.col-md-8 h3 {
+    line-height: 150%;
 }
 
 .blogs {
     text-align: center;
+    vertical-align: middle;
 }
 
-.blogs hr {
-    height: 1px;
-    width: 100%;
-    margin-bottom: 20px;
+.blog-icon {
+    width: 90%;
+    z-index: -1;
 }
 
-.blogs img {
-    width: 95%;
+.thumbnail {
+    width: 90%;
+    border-radius: 0;
+    border: none;
+    border-top: 1px solid gray;
+    padding-top: 10px;
 }
 
-.footer {
-    position: fixed;
-    height: 15%;
-    width: 47px;
-    border-radius: 10px;
-    bottom: 0;
-    background-color: white;
-    text-align: right;
+.caption {
+    font-size: 18px;
+    line-height: 90%;
 }
 
-.footer img {
-    height: 30%;
+.bottom img {
+    width: 30px;
     margin-left: 10px;
-    margin: 5%;
-    display: block;
+    margin-bottom: 20px;
+    display: inline-block;
 }
 
-.bottom {
-    text-align: right;
-    margin-top: 30px;
-    height: 30px;
-    bottom: 0;
-    left: 0;
+.bottom p{
+    float: right;
+    margin-right: 10px;
 }

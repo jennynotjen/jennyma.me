@@ -1,0 +1,22 @@
+window.addEventListener('load', function() {
+
+/** Sticky nav bar **/
+
+// When the user scrolls the page, execute stickNavBar 
+window.onscroll = function() {stickNavBar()};
+
+// Get the header
+var header = document.getElementById("nav-bar");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function stickNavBar() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+});

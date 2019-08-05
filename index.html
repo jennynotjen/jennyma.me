@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./index.js"></script>
   <title>Jenny Ma</title>
   <meta name="description" content="Jenny Ma">
   <meta name="author" content="Jenny Ma">
@@ -29,76 +30,83 @@
 </head>
 
 <body>
-  <script src="js/scripts.js"></script>
-
-  <div class="topnav">
-    <a class="active" href="#home">HOME</a>
-    <a href="about/index.html">ABOUT</a>
-    <a href="#blog">BLOG</a>
-    <a href="notes/index.html">NOTES</a>
-    <a href="#contact">CONTACT</a>
-  </div>
-
-  <div class ="logo">
-    <img src="Logo.PNG" alt="JM">
-  </div>
-  <div class="nameheader">
-    <h1>J E N N Y  M A</h1>
-    <h5>Foodie | Fashion-Snob | Engineer-In-Training </h5>
-  </div>
-  <div class ="homepic1">
-    <img src="homepic1.JPG" alt="Jenny">
-  </div>
-
-
-  <div class="intro">
-    <hr>
-    <div class="col-md-4"><h1>Hi there!</h1></div>
-    <div class="col-md-8"><h3>I'm Jenny. I like to jot down ideas and take fun pictures from time to time. This website, like me, is a mixed bag of weird thoughts and life hacks about tech, fashion, travel, and most importantly, food. You can catch me on <a href="https://www.instagram.com/vldmrpoutine/">Instagram</a>, or connect with me on <a href="https://www.linkedin.com/in/jennyma97/">LinkedIn</a>. Thanks for stopping by!</h3></div>
-
-    <div class="aboutMeLink">
-        <h4> I ramble a bit more about myself <a href="about/index.html">here</a></h4>
+  
+  <div class="welcome-screen">
+    <div class="intro-text">
+        <h1>Hi there, I'm Jenny.</h1>
+        <h2>I'm a product manager who</h2>
+        <h2 style="color: #333333">codes</h2>
+        <h2 style="color: #555555">eats</h2>
+        <h2 style="color: #777777">travels</h2>
+        <h2 style="color: #999999">reads</h2>
+        <h2>once in a while.</h2>
     </div>
-    
+  </div>
 
-    <hr>
+  <div class="topnav" id="nav-bar">
+      <a class="active offset" href="#home">HOME</a>
+      <a href="about/index.html">ABOUT</a>
+      <a href="#blog">BLOG</a>
+      <a href="notes/index.html">NOTES</a>
+      <a href="jenny.pdf">RESUME</a>
+  </div>
+
+
+  <div class="container intro">
+    <div class="col-md-4"><img src="img/profile.jpeg"></div>
+    <div class="col-md-8">
+        <hr>
+        <h3>From internships at Apple & Microsoft, to travelling 14 countries in 12 weeks, I've had some pretty cool experiences over the years. This is where I share the reflections, weird ideas, and curiosities on my mind. You can also catch me on <a style="color: gray" href="https://www.instagram.com/vldmrpoutine/">Instagram</a>, or connect with me on <a style="color: gray" href="https://www.linkedin.com/in/jennyma97/">LinkedIn</a>. Thanks for stopping by!</h3>
+        <hr>
+    </div>
+   
   </div>
 
   <div class="blogs">
     <div class="row">
-      <div class="col-sm-4">
-        <hr>
-        <img src="blog1.jpg">
-        <h3>Post Coming Soon</h3>
-        <hr>
+      <div class="col-sm-3">
+        <img class="blog-icon" src="img/blog.png">
       </div>
-      <div class="col-sm-4">
-        <hr>
-        <img src="blog2.jpg">
-        <h3>Post Coming Soon</h3>
-        <hr>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="https://medium.com/@jenny.ma1031/my-favourite-towns-in-europe-youve-probably-never-heard-of-7c8a8b50673">
+            <img class='img-fluid' src="blog1.jpeg" alt="Swiss Alps" >
+            <div class="caption">
+              <p>My favorite towns in Europe you've never heard of</p>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="col-sm-4">
-        <hr>
-        <img src="blog3.jpg">
-        <h3>Post Coming Soon</h3>
-        <hr>
+      <div class="col-md-3">
+        <div class="thumbnail">
+          <a href="blog4.jpeg">
+            <img src="blog4.jpeg" alt="Brunch" >
+            <div class="caption">
+              <p>A foodie's guide to Seattle</p>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
+      <div class="col-md-3">
+        <div class="thumbnail">
+            <img src="blog3.jpeg" alt="Swiss Alps">
+            <div class="caption">
+              <p>Coming Soon!</p>
+            </div>
+        </div>
+      </div>
   </div>
     
     
-  </div>
-
-  <div class="footer">
-      <a href="https://www.instagram.com/vldmrpoutine/"><img src="footerInsta.PNG" title="Instagram"></a>
-      <a href="https://www.linkedin.com/in/jennyma97/"><img src="footerLinkedIn.PNG" title="LinkedIn"></a>
-      <a href="jenny.pdf"><img src="footerResume.PNG" title="Resume"></a>
-
   </div>
 
   <div class="bottom">
-    <hr style="width:100%">
+    <hr/>
+    <a href="https://www.instagram.com/vldmrpoutine/"><img src="instagram.png" title="Instagram"></a>
+    <a href="https://www.linkedin.com/in/jennyma97/"><img src="linkedin.png" title="LinkedIn"></a>
+    <a href="https://medium.com/@jenny.ma1031"><img src="medium.png" title="Medium"></a>
+    <a href="https://github.com/jennynotjen"><img src="github.png" title="Github"></a>
+    <a href="jenny.pdf"><img src="user.png" title="Resume"></a>
     <p>Jenny Ma | 2018 &copy All Rights Reserved</p>
   </div>
 
